@@ -150,7 +150,7 @@ bool AppInit(int argc, char* argv[])
             std::string strUsage = _("br1m version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
                   "  br1md [options]                     " + "\n" +
-                  "  br1md [options] <command> [params]  " + _("Send command to -server or xonecoind") + "\n" +
+                  "  br1md [options] <command> [params]  " + _("Send command to -server or br1md") + "\n" +
                   "  br1md [options] help                " + _("List commands") + "\n" +
                   "  br1md [options] help <command>      " + _("Get help for a command") + "\n";
 
